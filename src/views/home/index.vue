@@ -27,7 +27,7 @@ interface State {
 
 export default {
   name: "Home",
-  setup(props: any, context: any) {
+  setup (props: any, context: any){
     const state: State = reactive({
       permissionRoutes: [],
       count: 0,
